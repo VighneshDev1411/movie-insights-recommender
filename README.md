@@ -17,44 +17,43 @@ The outcome is a **Movie Insights Dashboard** and a **Recommendation System** us
 ---
 
 ## 📂 Project Structure
+```
 movie-insights-recommender/
 │── README.md
 │── requirements.txt
 │── .gitignore
 │
 ├── data/
-│ ├── raw/ # Original datasets
-│ ├── processed/ # Cleaned datasets
-│ └── external/ # API or external data
+│   ├── raw/                    # Original datasets
+│   ├── processed/              # Cleaned datasets
+│   └── external/               # API or external data
 │
 ├── notebooks/
-│ ├── week01_intro.ipynb
-│ ├── week02_collection.ipynb
-│ ├── week03_eda.ipynb
-│ ├── week04_stats.ipynb
-│ └── ...
+│   ├── week01_intro.ipynb
+│   ├── week02_collection.ipynb
+│   ├── week03_eda.ipynb
+│   ├── week04_stats.ipynb
+│   └── ...
 │
 ├── src/
-│ ├── data_collection/
-│ ├── eda/
-│ ├── visualization/
-│ ├── models/
-│ ├── bigdata/
-│ └── networks/
+│   ├── data_collection/
+│   ├── eda/
+│   ├── visualization/
+│   ├── models/
+│   ├── bigdata/
+│   └── networks/
 │
 ├── dashboards/
-│ └── movie_dashboard.py
+│   └── movie_dashboard.py
 │
 ├── reports/
-│ ├── weekly_summaries/
-│ ├── final_report.md
-│ └── presentation_slides/
+│   ├── weekly_summaries/
+│   ├── final_report.md
+│   └── presentation_slides/
 │
 └── tests/
-└── test_models.py
-
-markdown
-Copy code
+    └── test_models.py
+```
 
 ---
 
@@ -83,48 +82,48 @@ Copy code
    ```bash
    git clone https://github.com/<your-username>/movie-insights-recommender.git
    cd movie-insights-recommender
-Create virtual environment (Conda)
+   ```
 
-bash
-Copy code
-conda create -n uic_ds python=3.10 -y
-conda activate uic_ds
-Install dependencies
+2. **Create virtual environment (Conda)**
+   ```bash
+   conda create -n uic_ds python=3.10 -y
+   conda activate uic_ds
+   ```
 
-bash
-Copy code
-pip install -r requirements.txt
-Launch Jupyter Notebook
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-bash
-Copy code
-jupyter notebook
-Run weekly notebooks inside the notebooks/ folder.
+4. **Launch Jupyter Notebook**
+   ```bash
+   jupyter notebook
+   ```
 
-📊 Final Deliverables
-Streamlit Dashboard: Interactive movie insights & recommendations
+5. Run weekly notebooks inside the `notebooks/` folder.
 
-API (optional): Movie recommender served with FastAPI
+---
 
-Report: Academic-style final project report
+## 📊 Final Deliverables
+- **Streamlit Dashboard:** Interactive movie insights & recommendations
+- **API (optional):** Movie recommender served with FastAPI
+- **Report:** Academic-style final project report
+- **Slides:** Presentation deck
 
-Slides: Presentation deck
+---
 
-✨ Learning Outcomes
-Mastery of core Data Science concepts (aligned with UIC syllabus).
+## ✨ Learning Outcomes
+- Mastery of core Data Science concepts (aligned with UIC syllabus)
+- Hands-on experience with real datasets and the full DS pipeline
+- A portfolio-ready capstone project demonstrating:
+  - Data Collection → Cleaning → EDA → Statistics → ML → Big Data → Network Analysis → Deployment
 
-Hands-on experience with real datasets and the full DS pipeline.
+---
 
-A portfolio-ready capstone project demonstrating:
-
-Data Collection → Cleaning → EDA → Statistics → ML → Big Data → Network Analysis → Deployment.
-
-👨‍💻 Author
-Vighnesh Pathak
+## 👨‍💻 Author
+**Vighnesh Pathak**  
 Graduate Student, M.S. Computer Science @ UIC (Fall 2025)
 
-🌐 Portfolio: [your-portfolio-link]
-
-💼 LinkedIn: [your-linkedin-link]
-
-📧 Email: [your-email]
+🌐 **Portfolio:** [your-portfolio-link]  
+💼 **LinkedIn:** [your-linkedin-link]  
+📧 **Email:** [your-email]
